@@ -418,8 +418,8 @@ main {
 .tiles__line-img {
 	--tile-margin: 3vw;
 	flex: none;
-	width: 40vh;
-	height: 40vh;
+	width: 30vh;  /* */
+	height: 30vh;  /* */
 	margin: var(--tile-margin);
 	background-size: cover;
 	background-position: 50% 50%;
@@ -434,7 +434,7 @@ main {
 
 .tiles__line-img--large {
 	width: 100vh;
-	border-radius: 4vh;
+	border-radius: 4vh;  /* */
 }
 
 .button-close {
